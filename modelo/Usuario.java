@@ -3,6 +3,7 @@ package modelo;
 public class Usuario {
     private int id;
     private String nombre;
+    private String correo;
 
     public Usuario(int id, String nombre) {
         this.id = id;
