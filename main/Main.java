@@ -10,5 +10,6 @@ public class Main {
 
         controlador.agregarUsuario(new Usuario(1, "Cristobal"));
         controlador.actualizarVista();
+        //correcion de error nulo.
     }
 }
