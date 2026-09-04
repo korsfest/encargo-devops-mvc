@@ -39,3 +39,6 @@ por qué ocupamos gitflow en nuestro proyecto ? :
 elegimos gitflow porque, a la hora de trabajar tres desarrolladores en al mismo tiempo en github, nos ofrecía 2 ventajas que sobresalían:
 1: aislamiento e integración ("develop"): actuará como un "escudo", donde juntaremos las ramas "feature/*" de cada integrante del grupo y validaremos que el microservicio funcione correctamente antes de tocar la versión oficial.
 2: estabilidad en la producción ("main"): este mantendrá la versión entregable limpia, y nos dará el mecanismo de "hotfix/*" para resolver cualquier tipo de emergencias que se pueda anteponer sin entorpecer el avance de las demás funcionalidades.
+
+
+NOTA ADICIONAL: ir a main/Main.java, y presionar play
