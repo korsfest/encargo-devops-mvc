@@ -1,8 +1,12 @@
+//esto es un mensaje para poder evindenciar un commit, ya que no lo hicimos desde un comienzo
+
+
 package modelo;
 
 public class Usuario {
     private int id;
     private String nombre;
+    private String correo;
 
     public Usuario(int id, String nombre) {
         this.id = id;

@@ -8,7 +8,12 @@ public class Main {
         VistaUsuario vista = new VistaUsuario();
         ControladorUsuario controlador = new ControladorUsuario(vista);
 
-        controlador.agregarUsuario(new Usuario(1, "Cristobal"));
+        controlador.agregarUsuario(new Usuario(1, "cristóbal"));
+        controlador.agregarUsuario(new Usuario(1, "cristóbal"));
+        controlador.agregarUsuario(new Usuario(1, "francisco"));
+        controlador.agregarUsuario(new Usuario(1, "vicente"));
+        controlador.agregarUsuario(new Usuario(1, "diego"));
+
         controlador.actualizarVista();
         //correcion de error nulo.
     }
