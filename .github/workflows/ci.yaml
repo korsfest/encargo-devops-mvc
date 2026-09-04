@@ -21,4 +21,4 @@ jobs:
         distribution: 'temurin'
 
     - name: Compilar proyecto MVC
-      run: javac src/**/*.java
+      run: find src -name "*.java" | xargs javac
