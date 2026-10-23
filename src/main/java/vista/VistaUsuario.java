@@ -1,6 +1,7 @@
 package vista;
-import modelo.Usuario;
+
 import java.util.ArrayList;
+import modelo.Usuario;
 
 public class VistaUsuario {
     public void mostrarUsuarios(ArrayList<Usuario> usuarios) {

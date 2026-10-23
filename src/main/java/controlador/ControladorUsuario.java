@@ -1,7 +1,8 @@
 package controlador;
-import modelo.Usuario;
-import vista.VistaUsuario;
+
 import java.util.ArrayList;
+import vista.VistaUsuario;
+import modelo.Usuario;
 
 public class ControladorUsuario {
     private ArrayList<Usuario> usuarios = new ArrayList<>();
