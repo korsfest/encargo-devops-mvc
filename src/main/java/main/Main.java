@@ -15,7 +15,7 @@ public class Main {
             StringBuilder html = new StringBuilder();
             html.append("<html><head><meta charset='UTF-8'><title>Microservicio Usuarios</title></head>");
             html.append("<body style='font-family: Arial, sans-serif; padding: 20px;'>");
-            html.append("<h2>Lista de Usuarios 2 (Microservicio Activo)</h2>");
+            html.append("<h2>Lista de Usuarios prueba2 (Microservicio Activo)</h2>");
             html.append("<ul>");
             
             
