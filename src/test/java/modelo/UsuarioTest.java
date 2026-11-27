@@ -1,16 +1,28 @@
 package modelo;
 
 import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
 
-import modelo.Usuario;
+class UsuarioTest {
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-
-public class UsuarioTest {
-    
     @Test
-    public void testGetNombre() {
-        Usuario usuario = new Usuario(1, "Francisco");
-        assertEquals("Francisco", usuario.getNombre(), "El nombre del usuario debe coincidir con el asignado");
+    void testConstructorBasicoYGetters() {
+        Usuario usuario = new Usuario(1, "Cris");
+
+        assertEquals(1, usuario.getId());
+        assertEquals("Cris", usuario.getNombre());
+        assertNull(usuario.getCorreo());
+    }
+
+    @Test
+    void testConstructorCompletoYSetters() {
+        Usuario usuario = new Usuario(2, "Francisco", "francisco@duocuc.cl");
+        usuario.setId(10);
+        usuario.setNombre("Vicente");
+        usuario.setCorreo("vicente@duocuc.cl");
+
+        assertEquals(10, usuario.getId());
+        assertEquals("Vicente", usuario.getNombre());
+        assertEquals("vicente@duocuc.cl", usuario.getCorreo());
     }
 }
